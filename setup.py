@@ -1,5 +1,5 @@
 """
-kpython
+kepython
 ------------
 Python utils by kerol, including web and other utils.
 Flask is Fun
@@ -9,7 +9,7 @@ Save in a hello.py:
 
 .. code:: python
 
-    from kpython.flask import *
+    from kepython.flask import *
 
 """
 
@@ -19,15 +19,15 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(
-    name='kpython',
+    name='kepython',
     version='0.1.2',
     description='Python utils by kerol',
     long_description=long_description,
-    url='https://github.com/kerol/kpython',
+    url='https://github.com/kerol/kepython',
     author='Kerol Gao',
     author_email='ikerol@163.com',
     license='Apache',
-    packages=['kpython',],
+    packages=['kepython',],
     include_package_data=True,
     install_requires=[
         'flask>=0.12',
@@ -54,7 +54,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'kpython=kpython:main',
+            'kepython=kepython:main',
         ],
     },
 )

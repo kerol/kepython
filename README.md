@@ -1,2 +1,2 @@
-# kpython
-Python utils by kerol, pip install kpython.
+# kepython
+Python utils by kerol, pip install kepython.
