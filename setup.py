@@ -20,14 +20,14 @@ with open('README.md') as f:
 
 setup(
     name='kpython',
-    version='0.1.0',
+    version='0.1.2',
     description='Python utils by kerol',
     long_description=long_description,
     url='https://github.com/kerol/kpython',
     author='Kerol Gao',
     author_email='ikerol@163.com',
-    license='Apache2',
-    packages=['flask', 'scrapy'],
+    license='Apache',
+    packages=['kpython',],
     include_package_data=True,
     install_requires=[
         'flask>=0.12',
@@ -40,7 +40,7 @@ setup(
         #   5 - Production/Stable
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: Apache License',
+        'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
