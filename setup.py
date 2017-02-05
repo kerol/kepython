@@ -14,6 +14,11 @@ Save in a hello.py:
 """
 
 from setuptools import setup
+from os import path
+
+#here = path.abspath(path.dirname(__file__))
+#with open(path.join(here, 'README.md')) as f:
+#        long_description = f.read()
 
 setup(
     name='kepython',
