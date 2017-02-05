@@ -20,7 +20,7 @@ with open('README.md') as f:
 
 setup(
     name='kepython',
-    version='0.1.2',
+    version='0.1.3',
     description='Python utils by kerol',
     long_description=long_description,
     url='https://github.com/kerol/kepython',
