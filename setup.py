@@ -14,17 +14,12 @@ Save in a hello.py:
 """
 
 from setuptools import setup
-from os import path
-
-here = path.abspath(path.dirname(__file__))
-with open(path.join(here, 'README.md')) as f:
-        long_description = f.read()
 
 setup(
     name='kepython',
-    version='0.1.5',
+    version='0.1.6',
     description='Python utils by kerol',
-    long_description=long_description,
+    long_description='pip install kepython',
     url='https://github.com/kerol/kepython',
     author='Kerol Gao',
     author_email='ikerol@163.com',
@@ -33,7 +28,6 @@ setup(
     include_package_data=True,
     install_requires=[
         'flask>=0.12',
-        'scrapy>=1.3.0',
     ],
     classifiers=[
         # How mature is this project? Common values are
