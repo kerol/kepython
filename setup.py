@@ -16,15 +16,15 @@ Save in a hello.py:
 from setuptools import setup
 from os import path
 
-#here = path.abspath(path.dirname(__file__))
-#with open(path.join(here, 'README.md')) as f:
-#        long_description = f.read()
+here = path.abspath(path.dirname(__file__))
+with open(path.join(here, 'README.md')) as f:
+        long_description = f.read()
 
 setup(
     name='kepython',
-    version='0.1.4',
+    version='0.1.5',
     description='Python utils by kerol',
-    #long_description=long_description,
+    long_description=long_description,
     url='https://github.com/kerol/kepython',
     author='Kerol Gao',
     author_email='ikerol@163.com',
