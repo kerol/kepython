@@ -9,7 +9,7 @@
     :license: Apache License.
 """
 
-from functools import particial
+from functools import partial
 
 from flask import request, abort, current_app
 from qiniu import Auth, put_data
